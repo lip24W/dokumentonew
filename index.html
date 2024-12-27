@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документооборот 24 - Конфигурации</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Добавляем стили из CDN -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+    <!-- Добавляем тему по умолчанию из CDN -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Анимация для кнопки отправки */
+        .animated-button {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="font-sans">
+
+
+
+
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+            <a href = '#' class="mr-5 hover:text-gray-900">Главная</a>
+            <a href = '#configurations' class="mr-5 hover:text-gray-900">Конфигурации</a>
+            <a href = './blog.html' class="mr-5 hover:text-gray-900">Блог</a>
+            <a href = '#' class="hover:text-gray-900">О нас</a>
+          </nav>
+          <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+            <img src="./img/photo_5436120861255003231_x.jpg" </img>
+            
+          </a>
+          <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-1">
+                    <i class="fas fa-phone text-gray-600"></i>
+                    <a href="tel:+74996539660" class="text-gray-700 hover:text-gray-900">+7 499 653 96 60</a>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <i class="fas fa-envelope text-gray-600"></i>
+                    <a href="mailto:1C@dokumentooborot24.ru" class="text-gray-700 hover:text-gray-900">1C@dokumentooborot24.ru</a>
+                </div>
+          </div>
+        </div>
+      </header>
+  
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+            <div class="sm:w-1/2 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img alt="content" class="object-cover object-center h-full w-full" src="./img/photo_5433620348475142755_x.jpg">
+              </div>
+              <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Подберём для вас конфигурацию ЭДО</h2>
+              <button class="bg-yellow-400 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200"
+              onclick="document.getElementById('feedback').scrollIntoView({ behavior: 'smooth' });">
+          Написать
+      </button>
+            </div>
+            <div class="sm:w-1/2 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img alt="content" class="object-cover object-center h-full w-full" src="./img/20943438.png">
+              </div>
+              <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Начните обмениваться документами с контрагентами</h2>
+              <button class="bg-yellow-400 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200"
+              onclick="document.getElementById('feedback').scrollIntoView({ behavior: 'smooth' });">
+          Купить
+      </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <section id="configurations" class="py-10 bg-gray-50">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold text-center mb-6">Повысьте скорость и эффективность работы с документами</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <a href="https://www.1c.ru/rus/products/1c/predpr/doc8/" target="_blank" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200">
+            <img src="./img/photo_5436120861255003196_m.jpg" alt="" class="">
+              <h3 class="text-lg font-semibold mb-2">1С:Документооборот 8 КОРП <br>для больших предприятий</h3>
+          </a>
+            <a href="https://www.1c.ru/rus/products/1c/predpr/docprof/" target="_blank" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200">
+                <img src="./img/photo_5436120861255003197_m.jpg" alt="" class="">
+                <h3 class="text-lg font-semibold mb-2">1С:Документооборот 8 ПРОФ<br> для небольших предприятий</h3>
+            </a>
+            <a href="https://solutions.1c.ru/catalog/document-management-for-government" target="_blank" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200">
+              <img src="./img/photo_5436120861255003200_m.jpg" alt="" class="">
+                <h3 class="text-lg font-semibold mb-2">1С:ДГУ 8 <br>для предприятий государственных структур</h3>
+            </a>
+            <a href="https://1c.ru/rus/products/1c/predpr/cabinet/" target="_blank" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200">
+              <img src="./img/photo_5436120861255003201_m.jpg" alt="" class="">
+                <h3 class="text-lg font-semibold mb-2">1С:Кабинет сотрудника<br> для предприятий с кадровым ЭДО</h3>
+            </a>
+        </div>
+      </div>
+    </section>
+
+<section class="py-10 bg-white">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold text-center mb-6">Сравнение конфигураций</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-gray-200">
+                <thead>
+                    <tr class="bg-gray-100">
+                        <th class="border border-gray-300 px-4 py-2">Характеристика</th>
+                        <th class="border border-gray-300 px-4 py-2">1С:Документооборот ПРОФ</th>
+                        <th class="border border-gray-300 px-4 py-2">1С:ДГУ</th>
+                         <th class="border border-gray-300 px-4 py-2">1С:Документооборот КОРП</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">Количество пользователей</td>
+                        <td class="border border-gray-300 px-4 py-2">До 100</td>
+                        <td class="border border-gray-300 px-4 py-2">Неограничено</td>
+                         <td class="border border-gray-300 px-4 py-2">Неограничено</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">Масштабируемость</td>
+                        <td class="border border-gray-300 px-4 py-2">Средняя</td>
+                        <td class="border border-gray-300 px-4 py-2">Высокая</td>
+                        <td class="border border-gray-300 px-4 py-2">Высокая</td>
+                    </tr>
+                     <tr>
+                        <td class="border border-gray-300 px-4 py-2">Управление процессами</td>
+                        <td class="border border-gray-300 px-4 py-2">Базовое</td>
+                        <td class="border border-gray-300 px-4 py-2">Расширенное</td>
+                         <td class="border border-gray-300 px-4 py-2">Полное</td>
+                    </tr>
+                    <tr>
+                         <td class="border border-gray-300 px-4 py-2">ЭДО</td>
+                         <td class="border border-gray-300 px-4 py-2">Стандартное</td>
+                         <td class="border border-gray-300 px-4 py-2">Интеграция с гос. сервисами</td>
+                          <td class="border border-gray-300 px-4 py-2">Расширенное</td>
+                    </tr>
+                      <tr>
+                           <td class="border border-gray-300 px-4 py-2">Стоимость</td>
+                           <td class="border border-gray-300 px-4 py-2">Средняя</td>
+                            <td class="border border-gray-300 px-4 py-2">Средняя</td>
+                             <td class="border border-gray-300 px-4 py-2">Высокая</td>
+                       </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+    <section id="feedback" class="py-10 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-semibold mb-6">Начните работу с ЭДО сейчас.<br> Просто напишите нам</h2>
+            <form class="max-w-lg mx-auto space-y-4">
+                <input type="email" placeholder="Ваш email" class="w-full p-3 border rounded">
+                <input type="tel" placeholder="Ваш телефон" class="w-full p-3 border rounded">
+                <textarea placeholder="Ваше сообщение" rows="4" class="w-full p-3 border rounded"></textarea>
+                <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded animated-button transition-colors duration-200">
+                    Отправить
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>+7 499 653 96 60 | 1C@dokumentooborot24.ru</p>
+            <p>г. Москва пр. Вернандского 29</p>
+        </div>
+    </footer>
+ <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
+
+</body>
+</html>
